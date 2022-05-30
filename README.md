@@ -13,6 +13,7 @@ password: D0tcraft3dMDB
 once logged in to cloud.mongodb.com select the only project available called FE Technical Task
 
 
+Testing done locally using Postman application
 
 
 Steps:
