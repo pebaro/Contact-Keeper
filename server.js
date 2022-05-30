@@ -6,7 +6,7 @@ const app = express()
 // connect the database
 connectDB()
 
-// init the Middleware
+// init the Middleware (instead of body parser)
 app.use(express.json({
 	extended: false
 }))
