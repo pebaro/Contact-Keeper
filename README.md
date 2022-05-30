@@ -4,6 +4,17 @@ technical task for Dotcrafted - front end application to create, manage, store, 
 Before setting up the package.json file I'm going to list what I intend to use initially to create my first commit
 (this list will grow as I progress through the build process)
 
+
+
+Access to database can be found at:
+https://account.mongodb.com/account/login?signedOut=true
+email: dotcrafted@pebaro.co.uk
+password: D0tcraft3dMDB
+once logged in to cloud.mongodb.com select the only project available called FE Technical Task
+
+
+
+
 Steps:
 1. set up the package.json for the intial stages of development
 2. get MongoDB set up and connected
