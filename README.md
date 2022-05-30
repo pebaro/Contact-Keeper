@@ -25,7 +25,7 @@ in the config folder create a file called...
 
 
 
-# MAIN DEPENDENCIES:
+# MAIN DEPENDENCIES (back end):
 1. Express - web framework to handle the routing
 2. BcryptJS - for hashing passwords
 3. JSON Web Token - for authentication using JWTs
@@ -37,6 +37,12 @@ in the config folder create a file called...
 1. NodeMon - allows the server to have a watch set up
 2. Concurrently - allows the running of front and back end servers at the same time
 
+
+# MAIN DEPENDENCIES (front end):
+1. Axios - for making requests
+2. React Router DOM
+3. React Transition Group - for small animations
+4. UUID - for unique ID generation
 
 
 # SCRIPTS
