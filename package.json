@@ -1,0 +1,25 @@
+{
+  "name": "fe-technical-task",
+  "version": "1.0.0",
+  "description": "technical task for Dotcrafted - front end application to create, manage, store, display a library of contacts",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+	"server": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Robert Masters",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.7",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.4"
+  },
+  "devDependencies": {
+    "concurrently": "^7.2.1",
+    "nodemon": "^2.0.16"
+  }
+}
