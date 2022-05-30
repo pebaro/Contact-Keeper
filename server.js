@@ -1,6 +1,15 @@
 const express = require('express')
+const connectDB = require('./config/db')
 
 const app = express()
+
+// connect the database
+connectDB()
+
+// init the Middleware
+app.use(express.json({
+	extended: false
+}))
 
 app.get('/', (req, res) => res.json({
 	msg: 'Welcome to the Contact Keeper Tech Test API for Dotcrafted'
