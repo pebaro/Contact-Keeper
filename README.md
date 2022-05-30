@@ -25,11 +25,6 @@ in the config folder create a file called...
 
 
 
-# STEPS:
-1. set up the package.json for the intial stages of development
-2. get MongoDB set up and connected
-
-
 # MAIN DEPENDENCIES:
 1. Express - web framework to handle the routing
 2. BcryptJS - for hashing passwords
@@ -43,3 +38,5 @@ in the config folder create a file called...
 2. Concurrently - allows the running of front and back end servers at the same time
 
 
+
+# SCRIPTS
