@@ -2,7 +2,9 @@ const express = require('express')
 
 const app = express()
 
-app.get('/', (req, res) => res.send('Testing In Postman App'))
+app.get('/', (req, res) => res.json({
+	msg: 'Welcome to the Contact Keeper Tech Test API for Dotcrafted'
+}))
 
 const PORT = process.env.PORT || 5001
 
