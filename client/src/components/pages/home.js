@@ -3,9 +3,13 @@ import Contacts from '../contacts/Contacts'
 
 const Home = () => {
 	return (
-		<div>
-			<h1>Home</h1>
-			<Contacts />
+		<div className='grid-2'>
+			<div>
+				{/** Contact Form Here */}
+			</div>
+			<div>
+				<Contacts />
+			</div>
 		</div>
 	)
 }
