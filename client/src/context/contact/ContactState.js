@@ -44,7 +44,7 @@ const ContactState = props => {
 				type: 'personal'
 			},
 			{
-				id: 4,
+				id: 5,
 				name: 'Jane Doe',
 				email: 'dead@woman.com',
 				dob: '01/01/1999',
@@ -61,18 +61,28 @@ const ContactState = props => {
 		contact.id = uuidv4()
 		dispatch({ type: ADD_CONTACT, payload: contact })
 	}
+
 	// Delete Contact
+	const deleteContact = id => {
+		dispatch({ type: DELETE_CONTACT, payload: id })
+	}
+
 	// Set Current Contact
+	
 	// Clear Current Contact
+	
 	// Update Contact
+	
 	// Filter Contacts
+	
 	// Clear Filter
 
 	return (
 		<ContactContext.Provider
 			value={{
 				contacts: state.contacts,
-				addContact
+				addContact,
+				deleteContact
 			}}
 		>
 			{props.children}
