@@ -35,6 +35,20 @@ const ContactState = props => {
 				email: 'national@embarrasment.com',
 				dob: '19/06/1964',
 				type: 'shameful'
+			},
+			{
+				id: 4,
+				name: 'John Doe',
+				email: 'dead@man.com',
+				dob: '01/01/1999',
+				type: 'personal'
+			},
+			{
+				id: 4,
+				name: 'Jane Doe',
+				email: 'dead@woman.com',
+				dob: '01/01/1999',
+				type: 'professional'
 			}
 		]
 	}

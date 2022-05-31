@@ -2,22 +2,23 @@
 
 /* Global Styles */
 :root {
-  --primary-color: #dc3545;
-  --dark-color: #333333;
+  --primary-color: #35addc;
+  --dark-color: #033a55;
   --light-color: #f4f4f4;
   --danger-color: #dc3545;
-  --success-color: #28a745;
+  --success-color: #5abe71;
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  /* font-size: 62.5%; */
 }
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-size: 1rem;
+  font-size: .9rem;
   line-height: 1.6;
   background-color: #fff;
   color: #333;
@@ -281,7 +282,7 @@ img {
 .bg-success,
 .badge-success,
 .alert-success {
-  background: var(--success-color);
+  background-color: var(--success-color);
   color: #fff;
 }
 
