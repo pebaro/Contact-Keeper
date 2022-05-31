@@ -18,7 +18,7 @@ const Contacts = () => {
 					? filtered.map(contact => (
 						<CSSTransition  
 							key={contact.id} 
-							timeout={400} 
+							timeout={300} 
 							classNames='item'
 						>
 							<ContactItem contact={contact} />
@@ -27,7 +27,7 @@ const Contacts = () => {
 					: contacts.map(contact => (
 						<CSSTransition  
 							key={contact.id} 
-							timeout={400} 
+							timeout={300} 
 							classNames='item'
 						>
 							<ContactItem contact={contact} />

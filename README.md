@@ -1,11 +1,8 @@
-Internet back up and re-continued at 12.30 June 31st.........
-
 # FE-technical-task
 technical task for Dotcrafted - front end application to create, manage, store, display a library of contacts
 
 Before setting up the package.json file I'm going to list what I intend to use initially to create my first commit
 (this list will grow as I progress through the build process)
-
 
 
 # ACCESS TO DATABASE:
@@ -24,7 +21,6 @@ in the config folder create a file called...
 {
 	"mongoURI": "mongodb+srv://dotcraftedmdb:D0tcraft3dMDB@fetechtask.nwzbk.mongodb.net/?retryWrites=true&w=majority"
 }
-
 
 
 # MAIN DEPENDENCIES (back end):
