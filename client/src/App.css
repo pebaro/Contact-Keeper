@@ -413,3 +413,14 @@ table th {
     justify-content: center;
   }
 }
+
+
+.contact__heading {
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+}
+.contact__details {
+	margin: 0;
+}
