@@ -48,13 +48,13 @@ in the config folder create a file called...
 
 
 # SCRIPTS
+run node & server.js
 # npm run start
-runs node & server.js
+run nodemon & server.js
 # npm run server
-runs nodemon & server.js
+run npm start for the client folder from the root folder using --prefix client
 # npm run client
-runs npm start for the client folder from the root folder using --prefix client
+run npm install for the client folder from the root folder using --prefix client
 # npm run clientinstall
-runs npm install for the client folder from the root folder using --prefix client
+run concurrently both npm run server & npm run client from above commands
 # npm run dev
-runs concurrently both npm run server & npm run client from above commands
