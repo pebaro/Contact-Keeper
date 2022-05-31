@@ -17,36 +17,29 @@ const ContactState = props => {
 		contacts: [
 			{
 				id: 1,
-				name: 'Ted Bundy',
-				email: 'scumbag@serialkillers.com',
-				dob: '24/11/1946',
-				type: 'unwanted'
+				name: 'Jack Daniels',
+				email: 'whiskey@drinker.com',
+				dob: '09/09/1999',
+				type: 'professional'
 			},
 			{
 				id: 2,
-				name: 'Adolph Hitler',
-				email: 'genocidal@maniac.com',
-				dob: '20/04/1889',
-				type: 'hated'
+				name: 'Mary Rose',
+				email: 'wooden@boat.com',
+				dob: '08/08/1888',
+				type: 'professional'
 			},
 			{
 				id: 3,
-				name: 'Borris Johnson',
-				email: 'national@embarrasment.com',
-				dob: '19/06/1964',
-				type: 'shameful'
-			},
-			{
-				id: 4,
 				name: 'John Doe',
-				email: 'dead@man.com',
+				email: 'random@man.com',
 				dob: '01/01/1999',
 				type: 'personal'
 			},
 			{
-				id: 5,
+				id: 4,
 				name: 'Jane Doe',
-				email: 'dead@woman.com',
+				email: 'random@woman.com',
 				dob: '01/01/1999',
 				type: 'professional'
 			}
