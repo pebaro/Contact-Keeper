@@ -1,3 +1,5 @@
+Internet back up and re-continued at 12.30 June 31st.........
+
 # FE-technical-task
 technical task for Dotcrafted - front end application to create, manage, store, display a library of contacts
 
@@ -46,3 +48,13 @@ in the config folder create a file called...
 
 
 # SCRIPTS
+# npm run start
+runs node & server.js
+# npm run server
+runs nodemon & server.js
+# npm run client
+runs npm start for the client folder from the root folder using --prefix client
+# npm run clientinstall
+runs npm install for the client folder from the root folder using --prefix client
+# npm run dev
+runs concurrently both npm run server & npm run client from above commands
