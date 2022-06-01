@@ -28,7 +28,7 @@ const AuthState = props => {
 	// Load User
 	const loadUser = () => console.log('load user')
 
-	// Register User
+	// Register User -- it's working with MongoDB!!!!!
 	const register = async formData => {
 		const config = {
 			headers: {
