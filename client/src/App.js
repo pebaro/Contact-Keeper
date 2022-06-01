@@ -5,6 +5,7 @@ import Home from './components/pages/home'
 import About from './components/pages/about'
 import Register from './components/auth/Register'
 import Login from './components/auth/Login'
+import Alerts from './components/layout/Alerts'
 
 import ContactState from './context/contact/ContactState'
 import AuthState from './context/auth/AuthState'
@@ -21,6 +22,7 @@ const App = () => {
 							<div className="App">
 								<Navbar />
 								<div className="container">
+									<Alerts />
 									<Switch>
 										<Route 
 											exact path='/' 
