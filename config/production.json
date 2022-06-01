@@ -1,0 +1,4 @@
+{
+	"mongoURI": "mongodb+srv://dotcraftedmdb:D0tcraft3dMDB@fetechtask.nwzbk.mongodb.net/?retryWrites=true&w=majority",
+	"jwtSecret": "secret"
+}
