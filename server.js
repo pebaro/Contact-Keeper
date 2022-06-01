@@ -12,7 +12,7 @@ app.use(express.json({
 }))
 
 app.get('/', (req, res) => res.json({
-	msg: 'Welcome to the Contact Keeper Tech Test API for Dotcrafted'
+	msg: 'Welcome to the FE Tech Test API for Dotcrafted'
 }))
 
 // DEFINE ROUTES
