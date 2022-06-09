@@ -1,9 +1,12 @@
 import React, { useState, useContext, useEffect } from 'react'
+import AlertContext from '../../context/alert/alertContext'
 import ContactContext from '../../context/contact/contactContext'
 
 const ContactForm = () => {
+	const alertContext = useContext(AlertContext)
 	const contactContext = useContext(ContactContext)
 
+	const { setAlert } = alertContext
 	const { addContact, updateContact, current, clearCurrent } = contactContext
 
 	useEffect(() => {
@@ -37,7 +40,11 @@ const ContactForm = () => {
 		e.preventDefault()
 
 		if (current === null) {
-			addContact(contact)
+			if (name === '' || email === '') {
+				setAlert('please include both a name and an email address', 'danger')
+			} else {
+				addContact(contact)
+			}
 		} else {
 			updateContact(contact)
 		}
@@ -68,14 +75,14 @@ const ContactForm = () => {
 				onChange={onChange}
 			/>
 			<input
-				type="text"
+				type="date"
 				placeholder="Date of Birth"
 				name="dob"
 				value={dob}
 				onChange={onChange}
 			/>
-			<h5>Contact Type</h5>
-			<input
+			<h4>Contact Type</h4>
+			<label className="radio-label"><input
 				type="radio"
 				name="type"
 				value="personal"
@@ -83,8 +90,8 @@ const ContactForm = () => {
 					type === 'personal'
 				}
 				onChange={onChange}
-			/> Personal {' '}
-			<input
+			/> &nbsp;Personal </label>
+			<label className="radio-label"><input
 				type="radio"
 				name="type"
 				value="professional"
@@ -92,7 +99,7 @@ const ContactForm = () => {
 					type === 'professional'
 				}
 				onChange={onChange}
-			/> Professional
+			/> &nbsp;Professional </label>
 			<div>
 				<input
 					type="submit"

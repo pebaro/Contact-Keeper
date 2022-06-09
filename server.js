@@ -12,9 +12,8 @@ app.use(express.json({
 	extended: false
 }))
 
-app.get('/', (req, res) => res.json({
-	msg: 'Welcome to the FE Tech Test API for Dotcrafted'
-}))
+// for testing
+// app.get('/', (req, res) => { res.json({ msg: 'testing' }) })
 
 // DEFINE ROUTES
 app.use('/api/auth', require('./routes/auth'))

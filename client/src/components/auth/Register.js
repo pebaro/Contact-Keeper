@@ -37,11 +37,15 @@ const Register = props => {
 	const onSubmit = e => {
 		e.preventDefault()
 
-		if (name === '' || email === '' || password === ''){
+		if (name === '' || email === '' || password === '' || password2 === '') {
 			setAlert('please complete all fields', 'danger')
+		} else if (password.length < 6 || password2.length < 6) {
+			setAlert('passwords must be at least 6 characters', 'danger')
+		} else if (password !== password2) {
+			setAlert('please ensure that both passwords match', 'danger')
 		} else {
 			register({
-				name, email, password
+				name, email, password, password2
 			})
 		}
 	}
@@ -77,7 +81,6 @@ const Register = props => {
 						name="password"
 						value={password}
 						onChange={onChange}
-						minLength="6"
 					/>
 				</div>
 				<div className="form-group">
@@ -87,7 +90,6 @@ const Register = props => {
 						name="password2"
 						value={password2}
 						onChange={onChange}
-						minLength="6"
 					/>
 				</div>
 				<input
