@@ -44,12 +44,17 @@ in the config folder create a file called...
 
 
 # SCRIPTS 
-## npm run start (run node & server.js)
+## npm run start 
+(run node & server.js)
 
-## npm run server (run nodemon & server.js)
+## npm run server 
+(run nodemon & server.js)
 
-## npm run client (run npm start for the client folder from the root folder using --prefix client)
+## npm run client 
+(run npm start for the client folder from the root folder using --prefix client)
 
-## npm run clientinstall (run npm install for the client folder from the root folder using --prefix client)
+## npm run clientinstall 
+(run npm install for the client folder from the root folder using --prefix client)
 
-## npm run dev (run concurrently both npm run server & npm run client from above commands)
+## npm run dev 
+(run concurrently both npm run server & npm run client from above commands)
