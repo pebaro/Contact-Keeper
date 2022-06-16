@@ -44,8 +44,7 @@ in the config folder create a file called...
 
 
 # SCRIPTS
-run node & server.js
-## npm run start
+run node & server.js ## npm run start
 run nodemon & server.js
 ## npm run server
 run npm start for the client folder from the root folder using --prefix client
