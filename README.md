@@ -1,4 +1,4 @@
-# FE-technical-task
+# Contact Keeper
 technical task for Dotcrafted - front end application to create, manage, store, display a library of contacts
 
 Before setting up the package.json file I'm going to list what I intend to use initially to create my first commit
