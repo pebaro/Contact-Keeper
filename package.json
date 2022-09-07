@@ -1,7 +1,7 @@
 {
-  "name": "fe-technical-task",
+  "name": "contact-keeper",
   "version": "1.0.0",
-  "description": "technical task for Dotcrafted - front end application to create, manage, store, display a library of contacts",
+  "description": "full-stack JS application to create, manage, store, display a library of contacts",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
